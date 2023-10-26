@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <style> 
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #553b92;
+    text-align: center;
+}
+
+#content {
+    display: block;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: pink;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+#motivos {
+    display: none;
+}
+
+#motivos h2 {
+    font-size: 28px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Você quer namorar comigo?</h1>
+        <button id="simBtn">Sim</button>
+        <button id="naoBtn">Não</button>
+    </div>
+    <div id="motivos" class="hidden">
+        <h2>Minha Gatinha linda</h2>
+        <ul>
+            <li>Você é uma mistura de coisa fofa</li>
+            <li>com putaria, de palavras meigas</li>
+            <li>com a boca linda</li>
+            <li>e isso meio que me enlouquece.</li>
+            <li>Somos a combinação perfeita. </li>
+        </ul>
+        <button id="mostrarFotosBtn">Mostrar Fotos e Textos</button>
+    </div>
+
+    <div id="fotos" class="hidden">
+        <h2>Sou apaixonada em voce!</h2>
+        <p>Aqui estão algumas coisas para voce ficar bem comigo.</p>
+    
+        <!-- Exemplo 1: Imagem com legenda -->
+        <div class="motivo">
+            <img src="coração.gif" alt="Motivo 1">
+            <p>quero te dar um abraço desse.</p>
+        </div>
+    
+        <!-- Exemplo 2: Outra imagem com legenda -->
+        <div class="motivo">
+            <img src="em cima.jpg" alt="Motivo 2">
+            <p>quero que voce durma assim em cima em mim kkkkkk</p>
+        </div>
+    
+        <!-- Exemplo 3: Mais uma imagem com legenda -->
+        <div class="motivo">
+            <img src="tentando te fazer feliz.jpg" alt="Motivo 3">
+            <p>Quero te animar dessa maneira, onde voce possa ficar bem comigo. </p>
+        </div> 
+        <div class="motivo">
+            <img src="no colo.jpg" alt="Motivo 4">
+            <p>vc toda tigresa vindo pra cima de mim, toda safada, quero. </p>
+        </div> 
+        <div class="motivo">
+            <img src="aaaq.jpg" alt="Motivo 5">
+            <p>Sei que ontem eu conheci um pouco mais de você e fiquei bem ao te conhecer</p>
+            <p>e vc contar suas experiências, e independente de qualquer coisa</p>
+            <p>vou estar do seu lado, não quero ser so uma amizade colorida como voce falou e sim uma pessoa importante</p> 
+            <p>a gente pode nao ter nada serio agora e nada depois mas sei que vou estar contigo</p> 
+            <p>e voce vai ser uma pessoa que vai lembrar de mim e sempre tirar um sorriso</p>
+            <p>no seu rosto como agora, eu nao sou a AMANDA que voce acha NOSSA QUE GATA </p>
+            <P>nossa que UAU nao sou mas eu sou uma pessoa que faria de tudo por você,</P>
+            <p>pera la, nao tudo mas tudo que eu pudesse fazer por alguém, seria corna facil para manter voce ao meu lado rsrsrs.</p>
+            <p>Nao fique com pé atras comigo, sobre oq  aconteceu realmente pq voce é tao preciosa tlgd?</p>
+            <P>esse mundo te causou muito mal mas que bom que te conheci que bom que você está aqui </P>
+            <p>e eu fiquei tao tristinha mas pq tenho medo mesmo de te perder pra sempre ou não ser como espera de mim, coisa que eu não sei oq faria</p> 
+            <p>e nao sei como eu iria reagir a respeito disso. Então Se sinta à vontade comigo, minha gata. Espero que eu consiga te arrancar altas risadas</p> 
+            <p> sobre o começo kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk eu não pedi não viu só foi pra testar seu coração!!</p>
+        </div>
+    
+        <button id="inicioBtn">Voltar ao Início</button>
+    </div>
+
+    <script src="amor.js"></script>
+</body>
+</html>
+
+

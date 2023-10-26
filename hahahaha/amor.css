@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #553b92;
+    text-align: center;
+}
+
+#content {
+    display: block;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    background-color: pink;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+#motivos {
+    display: none;
+}
+
+#motivos h2 {
+    font-size: 28px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
